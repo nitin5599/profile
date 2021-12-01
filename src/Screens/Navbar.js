@@ -28,8 +28,8 @@ function Navbar() {
       //     </a>
       //   </div>
       // </header>
-      <header class="py-4 bg-black bg-opacity-75 md:sticky top-0 z-10">
-        <div class="container flex justify-between items-center mx-auto px-4 md:px-14 lg:px-24 w-full">
+      <header className="py-4 bg-black bg-opacity-75 md:sticky top-0 z-10">
+        <div className="container flex justify-between items-center mx-auto px-4 md:px-14 lg:px-24 w-full">
           <Link to={{pathname:"/"}} className="mb-4 md:mb-0">
             <img
                 alt="testimonial"
@@ -37,7 +37,7 @@ function Navbar() {
                 className="w-12 flex-shrink-0 object-cover object-center"
             />
           </Link>
-          <div class=" md:flex space-x-4 items-center text-white">
+          <div className=" md:flex space-x-4 items-center text-white">
             <Link to={{pathname:"/"}} className="border-transparent border-b-2 hover:border-yellow-500">
               About
             </Link>
@@ -45,12 +45,12 @@ function Navbar() {
               Work
             </Link>
             <a href="#contact">
-              <button class="px-6 py-2 bg-yellow-500 font-bold focus:outline-none hover:bg-yellow-600 rounded-md text-base">
+              <button className="px-6 py-2 bg-yellow-500 font-bold focus:outline-none hover:bg-yellow-600 rounded-md text-base">
                 Let's Talk
               </button>
             </a>
           </div>
-          {/* <div class="md:hidden">
+          {/* <div className="md:hidden">
               <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
           </div> */}
         </div>
