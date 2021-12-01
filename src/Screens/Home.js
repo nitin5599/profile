@@ -21,7 +21,7 @@ function Home() {
                             alt="hero"
                             src={hero}
                         />
-                        <div className="absolute px-2 left-0 top-20 lg:inset-x-8 lg:top-20 ">
+                        <div className="absolute px-2 left-0 inset-y-44 lg:inset-x-8 lg:top-20 ">
                             <img
                                 className="lg:max-h-screen"
                                 alt="hero"
