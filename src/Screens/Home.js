@@ -6,8 +6,10 @@ import hero from "../Assets/page1/HeroImage.png";
 import desc from "../Assets/desc.png";
 import market from "../Assets/marketing.png";
 import vidita from "../Assets/vidita.png";
+import useDocumentTitle from '../useDocumentTitle'
 
 function Home() {
+    useDocumentTitle('Vidita Mahesheka')
     useEffect(() => {
         window.scroll(0,0)
     }, [])

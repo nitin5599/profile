@@ -4,8 +4,10 @@ import Testimonials from './Testimonials'
 import hero from "../Assets/page1/HeroImage.png";
 import title from "../Assets/title.png";
 import subtitle from "../Assets/subtitle.png";
+import useDocumentTitle from '../useDocumentTitle'
 
 function Work() {
+    useDocumentTitle('Vidita Mahesheka - Work')
     return (
         <>
             <section style={{opacity:'80%'}} className="bg-black text-white body-font">

@@ -14,7 +14,6 @@ import Error from './Screens/Error';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Thanks from './Screens/Thanks';
 
-
 function App() {
   return (
     <BrowserRouter>

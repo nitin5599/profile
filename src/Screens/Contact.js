@@ -6,7 +6,7 @@ function Contact() {
         <section id="contact" className="bg-black bg-opacity-75 text-white body-font">
           <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-20">
-              <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-yellow-500">
+              <h1 className="sm:text-5xl text-3xl font-medium title-font mb-4 text-yellow-500">
                 Have a project in mind?
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -16,7 +16,7 @@ function Contact() {
             <form
                 name="contact"
                 method="POST"
-                action="https://formsubmit.co/e012223482d63346b0fda37542f0f6d5"
+                action="https://formsubmit.co/1f9991316e4af8963489471dce7e3bcf"
                 // className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
                 className="grid sm:grid-cols-5 lg:grid-cols-10"
                 >
@@ -29,8 +29,8 @@ function Contact() {
                     id="name"
                     name="name"
                     placeholder="What can I call you?"
-                    style={{opacity:'80%'}}
-                    className="w-full bg-black placeholder-gray-500 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    // style={{opacity:'50%'}}
+                    className="w-full bg-black bg-opacity-40 placeholder-gray-400 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     
                     />
                 </div>
@@ -41,12 +41,12 @@ function Contact() {
                     Email
                     </label>
                     <input
-                    style={{opacity:'80%'}}
+                    // style={{opacity:'80%'}}
                     type="email"
                     id="email"
                     name="email"
                     placeholder="How can I contact you?"
-                    className="w-full bg-black placeholder-gray-500 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-black bg-opacity-40 placeholder-gray-400 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     
                     />
                 </div>
@@ -57,11 +57,11 @@ function Contact() {
                     Message
                     </label>
                     <textarea
-                    style={{opacity:'80%'}}
+                    // style={{opacity:'80%'}}
                     id="message"
                     name="message"
                     placeholder="I have an idea..."
-                    className="w-full bg-black placeholder-gray-500 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-black bg-opacity-40 placeholder-gray-400 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                     
                     />
                 </div>

@@ -30,35 +30,35 @@ function Footer() {
                         <img
                             alt="testimonial"
                             src={behance}
-                            className="w-6 flex-shrink-0 object-cover object-center"
+                            className="w-8 flex-shrink-0 object-cover object-center"
                         />
                     </a>
-                    <a href="https://www.linkedin.com/in/vidita-agarwal-555175136/" target="_blank" className="title-font font-medium text-white mb-4 md:mb-0">
+                    <a href="https://www.linkedin.com/in/vidita-agarwal-555175136/" target="_blank" className="mb-4 md:mb-0">
                         <img
                             alt="testimonial"
                             src={linkedin}
-                            className="w-6 flex-shrink-0 object-cover object-center"
+                            className="w-7 flex-shrink-0 object-cover object-center"
                         />
                     </a>
-                    <a href="https://www.instagram.com/vaga._.bond/" target="_blank" className="title-font font-medium text-white mb-4 md:mb-0">
+                    <a href="https://www.instagram.com/vaga._.bond/" target="_blank" className="mb-4 md:mb-0">
                         <img
                             alt="testimonial"
                             src={insta}
-                            className="w-6 flex-shrink-0 object-cover object-center"
+                            className="w-7 flex-shrink-0 object-cover object-center"
                         />
                     </a>
                     <a href="mailto:vdta003@gmail.com" className="title-font font-medium text-white mb-4 md:mb-0">
                         <img
                             alt="testimonial"
                             src={email}
-                            className="w-6 flex-shrink-0 object-cover object-center"
+                            className="w-8 flex-shrink-0 object-cover object-center"
                         />
                     </a>
                     <a href="whatsapp://send?phone=919717970869" target="_blank" className="title-font font-medium text-white mb-4 md:mb-0">
                         <img
                             alt="testimonial"
                             src={whatsapp}
-                            className="w-6 flex-shrink-0 object-cover object-center"
+                            className="w-7 flex-shrink-0 object-cover object-center"
                         />
                     </a>
                 </div>
