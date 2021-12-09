@@ -15,7 +15,7 @@ function Home() {
     }, [])
     return (
         <>
-            <section style={{opacity:'80%'}} className="bg-black text-white body-font">
+            <section className="bg-black  bg-opacity-80 text-white body-font">
                 <div className="static">
                     <div className="relative">
                         <img

@@ -10,7 +10,9 @@ function Work() {
     useDocumentTitle('Vidita Mahesheka - Work')
     return (
         <>
-            <section style={{opacity:'80%'}} className="bg-black text-white body-font">
+            <section 
+            // style={{opacity:'80%'}}
+             className="bg-black bg-opacity-80 text-white body-font">
                 <div className="relative overflow-hidden">
                     <img src={hero} alt="Avatar" className="object-contain" />
                     <div className="absolute top-10 left-1 lg:top-20 lg:left-20 py-2 text-white 
