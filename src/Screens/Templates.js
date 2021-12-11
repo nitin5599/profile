@@ -24,9 +24,9 @@ function Templates() {
                 <div className="grid grid-cols-12 grid-flow-row-dense gap-6 ">
                     <div className="relative col-start-1 col-span-12">
                         <a target="_blank" href="https://www.behance.net/gallery/103702807/Baraabari-Bringing-the-Blind-and-Sighted-together">   
-                            <img className="object-fill h-64 w-full" src={dailyui} alt=""/>
-                            <img className="absolute object-fill h-64 w-full bottom-0 left-0" src={rect} alt=""/>
-                            <p className="container top-20  absolute mx-auto text-base lg:text-lg">Interaction design // UI Design </p>
+                            <img className="temp1 object-fill w-full" src={dailyui} alt=""/>
+                            <img className="temp1 absolute object-fill h-64 w-full bottom-0 left-0" src={rect} alt=""/>
+                            <p className="container temp_title absolute mx-auto text-base lg:text-lg">Interaction design // UI Design </p>
                         </a>    
                     </div>
                     <div className="col-start-1 col-span-6">

@@ -26,11 +26,24 @@
 .child:last-child{
     /* background: #ff7979; */
 }
+
+.temp1{
+    height: 24rem;
+}
+.temp_title {
+    top: 10rem;
+}
 @media (max-width: 768px){
     .grand_parent{
         height:auto; 
     }
     .parents{
         width: auto;
+    }
+    .temp1{
+        height: 20rem;
+    }
+    .temp_title {
+        top: 10rem;
     }
 }
