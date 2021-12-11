@@ -6,6 +6,8 @@ import linkedin from "../Assets/linkedin.png";
 import whatsapp from "../Assets/whatsapp.png";
 import email from "../Assets/email.png";
 import { BrowserRouter, Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 function Footer() {
     return (
         <section style={{opacity:'80%'}} className="bg-black text-white body-font">
@@ -26,39 +28,41 @@ function Footer() {
                     <br/>From India</p>
                 </div>
                 <div className="flex gap-2 mx-auto my-4 lg:col-start-2 lg:col-span-1">
+                    
                     <a href="https://www.behance.net/vdta003ea6c" target="_blank" className="title-font font-medium text-white mb-4 md:mb-0">
                         <img
                             alt="testimonial"
                             src={behance}
-                            className="w-8 flex-shrink-0 object-cover object-center"
+                            className="w-7"
                         />
+                        {/* <FontAwesomeIcon icon={['fas', 'coffee']} /> */}
                     </a>
                     <a href="https://www.linkedin.com/in/vidita-agarwal-555175136/" target="_blank" className="mb-4 md:mb-0">
                         <img
                             alt="testimonial"
                             src={linkedin}
-                            className="w-7 flex-shrink-0 object-cover object-center"
+                            className="w-6"
                         />
                     </a>
-                    <a href="https://www.instagram.com/vaga._.bond/" target="_blank" className="mb-4 md:mb-0">
+                    <a href="https://www.instagram.com/vaga._.bond/" target="_blank" className="mb-2 md:mb-0">
                         <img
                             alt="testimonial"
                             src={insta}
-                            className="w-7 flex-shrink-0 object-cover object-center"
+                            className="w-6"
                         />
                     </a>
                     <a href="mailto:vdta003@gmail.com" className="title-font font-medium text-white mb-4 md:mb-0">
                         <img
                             alt="testimonial"
                             src={email}
-                            className="w-8 flex-shrink-0 object-cover object-center"
+                            className="w-7"
                         />
                     </a>
                     <a href="whatsapp://send?phone=919717970869" target="_blank" className="title-font font-medium text-white mb-4 md:mb-0">
                         <img
                             alt="testimonial"
                             src={whatsapp}
-                            className="w-7 flex-shrink-0 object-cover object-center"
+                            className="w-6"
                         />
                     </a>
                 </div>
