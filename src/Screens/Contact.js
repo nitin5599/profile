@@ -3,10 +3,12 @@ import React from 'react'
 function Contact() {
 
     return (
-        <section id="contact" className="bg-black bg-opacity-75 text-white body-font">
+        <section id="contact" className="bg-black bg-opacity-75 text-white body-font font-light">
           <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-20">
-              <h1 className="sm:text-5xl text-3xl font-medium title-font mb-4 text-yellow-500">
+              <h1 
+              style={{color:"rgba(204, 141, 28, 1)"}}
+              className="sm:text-5xl text-3xl font-medium title-font mb-4 ">
                 Have a project in mind?
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -29,8 +31,7 @@ function Contact() {
                     id="name"
                     name="name"
                     placeholder="What can I call you?"
-                    // style={{opacity:'50%'}}
-                    className="w-full bg-black bg-opacity-40 placeholder-gray-400 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full placeholder-gray-300 bg-black bg-opacity-40  rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     
                     />
                 </div>
@@ -41,12 +42,11 @@ function Contact() {
                     Email
                     </label>
                     <input
-                    // style={{opacity:'80%'}}
                     type="email"
                     id="email"
                     name="email"
                     placeholder="How can I contact you?"
-                    className="w-full bg-black bg-opacity-40 placeholder-gray-400 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-black bg-opacity-40 placeholder-gray-300 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     
                     />
                 </div>
@@ -54,25 +54,23 @@ function Contact() {
                     <label
                     htmlFor="message"
                     className="leading-7 text-sm ">
-                    Message
+                    Anything that you’d want me to know?
                     </label>
                     <textarea
-                    // style={{opacity:'80%'}}
                     id="message"
                     name="message"
                     placeholder="I have an idea..."
-                    className="w-full bg-black bg-opacity-40 placeholder-gray-400 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                    
+                    className="w-full bg-black bg-opacity-40 placeholder-gray-300 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                     />
                 </div>
                 <button
                     type="submit"
-                    className="sm:col-start-1 lg:col-start-5 lg:col-span-2 text-white bg-yellow-500 border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded-md text-lg">
+                    style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                    className="sm:col-start-1 lg:col-start-5 lg:col-span-2 text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded-md text-lg font-light">
                     Let's chat  
                 </button>
             </form> 
           </div>
-          {/* <ToastContainer/> */}
         </section>
 
     )

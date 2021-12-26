@@ -63,7 +63,7 @@ const breakPoints = [
 
 function Testimonials() {
     return (
-        <section id="testimonials" style={{opacity:'80%'}} className="bg-black text-white body-font">
+        <section id="testimonials" className="bg-black bg-opacity-80 text-white body-font">
           <div className="container px-5 py-10 mx-auto text-center lg:px-10">
             <div className="flex flex-col w-full lg:mb-10">
               <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-yellow-500">

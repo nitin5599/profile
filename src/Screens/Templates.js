@@ -26,7 +26,7 @@ function Templates() {
                         <a target="_blank" href="https://www.behance.net/gallery/103702807/Baraabari-Bringing-the-Blind-and-Sighted-together">   
                             <img className="temp1 object-fill w-full" src={dailyui} alt=""/>
                             <img className="temp1 absolute object-fill h-64 w-full bottom-0 left-0" src={rect} alt=""/>
-                            <p className="container temp_title absolute mx-auto text-base lg:text-lg">Interaction design // UI Design </p>
+                            <p className="container temp_title absolute mx-auto text-base lg:text-lg font-normal">Interaction design // UI Design </p>
                         </a>    
                     </div>
                     <div className="col-start-1 col-span-6">
@@ -92,7 +92,9 @@ function Templates() {
                     <button className="col-start-1 col-span-12 md:col-start-1 md:col-span-6 lg:col-start-4 lg:col-span-3 text-white bg-transparent border-2 border-yellow-500 my-4 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded-md text-lg">
                         Let's chat  
                     </button>
-                    <button className="col-start-1 col-span-12 md:col-start-7 md:col-span-6 lg:col-start-7 lg:col-span-3 text-white bg-yellow-500 border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded-md text-lg">
+                    <button 
+                    style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                    className="col-start-1 col-span-12 md:col-start-7 md:col-span-6 lg:col-start-7 lg:col-span-3 text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded-md text-lg">
                         See All Projects  
                     </button>
                 </div>            

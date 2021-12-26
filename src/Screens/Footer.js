@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Footer() {
     return (
-        <section style={{opacity:'80%'}} className="bg-black text-white body-font">
+        <section className="bg-black bg-opacity-80 text-white body-font font-light">
           <div className="container mx-auto  px-10 py-10 lg:px-20 text-center ">
 
             <div className="grid lg:grid-rows-3 lg:grid-cols-3">

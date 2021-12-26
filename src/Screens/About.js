@@ -4,12 +4,12 @@ import { SearchIcon, BeakerIcon, LibraryIcon, LightBulbIcon } from "@heroicons/r
 function About() {
     return (
       <>          
-        <section className="bg-black bg-opacity-75 text-white body-font">
+        <section className="bg-black bg-opacity-75 text-white body-font font-light">
           <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             
             <div className="flex flex-col w-full mb-10">
               <div className="border-t-2 border-yellow-600 w-20 my-3 self-center"></div>
-              <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-yellow-500">
+              <h1 style={{color:"rgba(204, 141, 28, 1)"}} className="sm:text-4xl text-3xl font-medium title-font mb-4">
               Design Process
               </h1>
               <p className="lg:w-3/4 mx-auto leading-relaxed text-base">
@@ -107,8 +107,9 @@ function About() {
             
             <div className="flex justify-center">
               <a
+                style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
                 href="#contact"
-                className="inline-flex bg-yellow-500 text-white border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+                className="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
                 Let’s design together
               </a>
             </div>

@@ -4,7 +4,7 @@ import React from 'react'
 function Thanks() {
     return (
         <>
-        <section style={{opacity:"80%"}} className="bg-black text-white body-font">
+        <section className="bg-black bg-opacity-80 text-white body-font">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <h1 className="sm:text-4xl text-3xl font-medium title-font font-bold mb-4 text-yellow-500">

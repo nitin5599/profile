@@ -17,7 +17,7 @@ import Thanks from './Screens/Thanks';
 function App() {
   return (
     <BrowserRouter>
-      <main>        
+      <main className='font-light'>        
         <Navbar />
         <Routes>
             <Route path="/" element={<Home/>} exact/>

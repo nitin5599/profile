@@ -28,7 +28,7 @@ function Navbar() {
       //     </a>
       //   </div>
       // </header>
-      <header className="py-4 bg-black bg-opacity-75 md:sticky top-0 z-10">
+      <header className="py-4 bg-black bg-opacity-75 md:sticky top-0 z-10 font-light">
         <div className="container flex justify-between items-center mx-auto px-4 md:px-14 lg:px-24 w-full">
           <Link to={{pathname:"/"}} className="mb-4 md:mb-0">
             <img
@@ -44,8 +44,10 @@ function Navbar() {
             <Link to={{pathname:"/work"}} className="border-transparent border-b-2 hover:border-yellow-500">
               Work
             </Link>
-            <a href="#contact">
-              <button className="px-6 py-2 bg-yellow-500 font-bold focus:outline-none hover:bg-yellow-600 rounded-md text-base">
+            <a href="mailto:vdta003@gmail.com">
+              <button
+                style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                className="px-6 py-2 font-bold focus:outline-none hover:bg-yellow-600 rounded-md text-base">
                 Let's Talk
               </button>
             </a>

@@ -47,3 +47,8 @@
         top: 10rem;
     }
 }
+
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(155, 155, 155, 1);
+}

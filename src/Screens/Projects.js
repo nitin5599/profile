@@ -16,7 +16,7 @@ import image13 from "../Assets/page1/image13.png";
 function Projects() {
     return (
       <>
-        <section style={{opacity:'80%'}} className="bg-black text-white body-font">
+        <section  className="bg-black bg-opacity-80 text-white body-font font-light">
           <div className="container mx-auto flex px-10 py-20 lg:px-20 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h4 className="title-font sm:text-4xl text-3xl mb-4 font-small text-white">
@@ -28,9 +28,10 @@ function Projects() {
               </p>
               <div className="flex justify-center">
                 <a
+                  style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
                   target="_blank"
                   href="https://www.dezeen.com/2021/05/12/the-design-village-architecture-design-school-show/"
-                  className="inline-flex bg-yellow-500 text-white border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+                  className="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
                   View Feature
                 </a>
               </div>
@@ -44,10 +45,12 @@ function Projects() {
             </div>
           </div>
         </section>
-        <section id="projects" className="bg-black bg-opacity-75 text-white body-font">
+        <section id="projects" className="bg-black bg-opacity-75 text-white body-font font-light">
           <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-20">
-              <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-yellow-500">
+              <h1 
+              style={{color:"rgba(204, 141, 28, 1)"}}
+              className="sm:text-4xl text-3xl font-medium title-font mb-4 ">
               <HeartIcon className="mx-auto fill-current text-red-600 inline-block w-10 mb-2" /> from Clients
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">

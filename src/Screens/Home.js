@@ -42,7 +42,8 @@ function Home() {
                                 src={desc}
                             />                            
                             <button
-                                className="text-white bg-yellow-600 border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
+                                style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                                className="text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
                                 Download Resume  
                             </button>
                         </div>
@@ -60,7 +61,8 @@ function Home() {
                                 src={desc}
                             />
                             <button
-                                className="text-white bg-yellow-600 border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
+                                style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                                className="text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
                                 Download Resume  
                             </button>
                         </div>
