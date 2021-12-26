@@ -38,14 +38,14 @@ export const testimonials = [
         `Vidita has always had the "Getting Work Done" attitude. Once she was on the team, I did not have to worry about any design at all. Her software skills are world-class and her business acumen when creating prototypes or wireframes is no match. Apart from this, collaborating on projects and communicating about that was never an issue that anyone faced with her.`,
       image: Karan
     },
-    {
-      id:5,      
-      name: "Ananya Sharma Visual Designer @",
-      company: "Ex: Student @The Design Village",
-      qoute:
-        "Vidita is highly organized, detail-oriented and a resourceful person. Being a fast learner helped her to quickly understand the right market fit. We worked together on several projects in the past one year. I highly recommend Vidita as a professional Interaction Designer whose work in the team makes other team members strive for better results.",
-      image: Ananya
-    },
+    // {
+    //   id:5,      
+    //   name: "Ananya Sharma Visual Designer @",
+    //   company: "Ex: Student @The Design Village",
+    //   qoute:
+    //     "Vidita is highly organized, detail-oriented and a resourceful person. Being a fast learner helped her to quickly understand the right market fit. We worked together on several projects in the past one year. I highly recommend Vidita as a professional Interaction Designer whose work in the team makes other team members strive for better results.",
+    //   image: Ananya
+    // },
     {
       id:6,
       name: "Chitrak Srivastave Faculty @The Design Village",
