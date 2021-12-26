@@ -27,7 +27,7 @@ function Footer() {
                     <p className="mx-auto">Handcrafted with love
                     <br/>From India</p>
                 </div>
-                <div className="flex gap-2 mx-auto my-4 lg:col-start-2 lg:col-span-1">
+                <div className="flex gap-2 gap-x-6 mx-auto my-4 lg:col-start-2 lg:col-span-1">
                     
                     <a href="https://www.behance.net/vdta003ea6c" target="_blank" className="title-font font-medium text-white mb-4 md:mb-0">
                         <img
@@ -35,7 +35,6 @@ function Footer() {
                             src={behance}
                             className="w-7"
                         />
-                        {/* <FontAwesomeIcon icon={['fas', 'coffee']} /> */}
                     </a>
                     <a href="https://www.linkedin.com/in/vidita-agarwal-555175136/" target="_blank" className="mb-4 md:mb-0">
                         <img
