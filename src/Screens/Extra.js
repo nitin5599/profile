@@ -53,12 +53,12 @@ function Extra() {
                 <div className="col-start-4 col-end-6 row-span-3 bg-gray-800 text-white text-center ">
                     <img className="h-full" src={me} />
                 </div>
-                <div className="col-start-6 col-end-9 row-span-3 bg-gray-800 text-white text-center ">
+                <div className="col-start-6 col-end-10 row-span-3 bg-gray-800 text-white text-center ">
                     <img className="h-full" src={party} />
                 </div>
-                <div className="col-start-9 col-span-1 row-span-3 bg-gray-800 text-white text-center ">
+                {/* <div className="col-start-9 col-span-1 row-span-3 bg-gray-800 text-white text-center ">
                     <img className="h-full" src={people3} />
-                </div>
+                </div> */}
                 <div className="col-start-10 col-span-2 bg-gray-800 text-white text-center ">
                     <img className="h-full w-full" src={people2} />
                 </div>

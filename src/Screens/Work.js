@@ -5,6 +5,7 @@ import hero from "../Assets/page1/HeroImage.png";
 import title from "../Assets/title.png";
 import subtitle from "../Assets/subtitle.png";
 import useDocumentTitle from '../useDocumentTitle'
+import Resume from '../Assets/Resume.pdf'
 
 function Work() {
     useDocumentTitle('Vidita Mahesheka - Work')
@@ -46,12 +47,14 @@ function Work() {
                                 className="lg:max-h-screen"
                                 alt="hero"
                                 src={subtitle}
-                            />                            
-                            <button
-                            style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
-                                className="text-white  border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
-                                Download Resume  
-                            </button>
+                            />                         
+                            <a href = {Resume} target = "_blank">   
+                                <button
+                                style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                                    className="text-white  border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
+                                    Download Resume  
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className="block lg:hidden grid grid-rows-1 p-2">
@@ -66,11 +69,13 @@ function Work() {
                                 alt="hero"
                                 src={subtitle}
                             />
-                            <button
-                            style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
-                                className="text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
-                                Download Resume  
-                            </button>
+                            <a href = {Resume} target = "_blank">
+                                <button
+                                style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                                    className="text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
+                                    Download Resume  
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

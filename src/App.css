@@ -52,3 +52,120 @@
 input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(155, 155, 155, 1);
 }
+
+/* .grid .onhover{
+    visibility: hidden;
+}
+
+.grid .onhover:hover:enabled, .onhover:focus:enabled{
+    visibility: visible !important;
+} */
+
+.rec.rec-arrow {
+    background-color: rgb(204, 141, 28);
+    color: #fff;
+}
+.jRFJkP:hover:enabled, .jRFJkP:focus:enabled{
+    color: #fff;
+    background-color: rgb(204, 141, 28) !important;
+    box-shadow: 0 0 2px 0 #333;
+}
+.rec .rec-arrow .rec-arrow-right:hover, .rec-arrow-right:active {
+    background-color: rgb(204, 141, 28);
+}
+.rec.rec-dot{
+    outline: none;
+    background-color: rgb(204, 141, 28);
+}
+.lcUbOd:hover, .lcUbOd:focus {
+    cursor: pointer;
+    box-shadow: none !important;
+}
+.eaptOe:hover, .eaptOe:focus {
+    cursor: pointer;
+    box-shadow: none !important;
+}
+
+/* .container{
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+  } */
+  
+  /* @media screen and (max-width: 640px){
+    .container{
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 900px){
+    .container{
+      width: 33.33333%;
+    }
+  }
+   */
+  /* .container .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+  } */
+  
+  .content {
+    position: relative;
+    /* width: 90%;
+    max-width: 400px; */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgba(204, 141, 28, 0.7);
+    position: absolute;
+    /* height: 99%; */
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+    
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  

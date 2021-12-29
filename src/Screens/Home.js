@@ -6,7 +6,8 @@ import hero from "../Assets/page1/HeroImage.png";
 import desc from "../Assets/desc.png";
 import market from "../Assets/marketing.png";
 import vidita from "../Assets/vidita.png";
-import useDocumentTitle from '../useDocumentTitle'
+import useDocumentTitle from '../useDocumentTitle';
+import Resume from '../Assets/Resume.pdf'
 
 function Home() {
     useDocumentTitle('Vidita Mahesheka')
@@ -40,12 +41,14 @@ function Home() {
                                 className="lg:max-h-screen"
                                 alt="hero"
                                 src={desc}
-                            />                            
-                            <button
-                                style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
-                                className="text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
-                                Download Resume  
-                            </button>
+                            />  
+                            <a href = {Resume} target = "_blank">                          
+                                <button
+                                    style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                                    className="text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
+                                    Download Resume  
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className="block lg:hidden grid grid-rows-1 p-2">
@@ -60,11 +63,13 @@ function Home() {
                                 alt="hero"
                                 src={desc}
                             />
-                            <button
-                                style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
-                                className="text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
-                                Download Resume  
-                            </button>
+                            <a href = {Resume} target = "_blank">
+                                <button
+                                    style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
+                                    className="text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded-md text-lg">
+                                    Download Resume  
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

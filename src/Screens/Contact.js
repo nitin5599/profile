@@ -20,9 +20,9 @@ function Contact() {
                 method="POST"
                 action="https://formsubmit.co/1f9991316e4af8963489471dce7e3bcf"
                 // className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
-                className="grid sm:grid-cols-5 lg:grid-cols-10"
+                className="grid sm:grid-cols-5 lg:grid-cols-11"
                 >
-                <div className="sm:col-start-1  lg:col-start-2 lg:col-end-5 relative mb-4 text-left">
+                <div className="sm:col-start-1  lg:col-start-3 lg:col-end-6 relative mb-4 text-left">
                     <label htmlFor="name" className="leading-7 text-sm ">
                     Name
                     </label>
@@ -50,7 +50,7 @@ function Contact() {
                     
                     />
                 </div>
-                <div className="sm:col-start-1 lg:col-start-2 lg:col-end-10 relative my-4 text-left">
+                <div className="sm:col-start-1 lg:col-start-3 lg:col-end-10 relative my-4 text-left">
                     <label
                     htmlFor="message"
                     className="leading-7 text-sm ">
@@ -66,7 +66,7 @@ function Contact() {
                 <button
                     type="submit"
                     style={{backgroundColor:"rgba(204, 141, 28, 1)"}}
-                    className="sm:col-start-1 lg:col-start-5 lg:col-span-2 text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded-md text-lg font-light">
+                    className="sm:col-start-1 lg:col-start-5 lg:col-span-3 text-white border-0 my-4 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded-md text-lg font-light">
                     Let's chat  
                 </button>
             </form> 
